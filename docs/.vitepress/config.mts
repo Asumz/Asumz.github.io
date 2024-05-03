@@ -28,7 +28,7 @@ export default defineConfig({
                         link: '/web-technology/thinking-about-projects'
                     },
                     {
-                        text: 'HTTP缓存总结',
+                        text: 'HTTP缓存',
                         link: '/web-technology/http-cache'
                     }
 
