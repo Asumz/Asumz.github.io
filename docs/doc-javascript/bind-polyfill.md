@@ -1,9 +1,13 @@
+# 实现一个 bind 函数
+
 :::warning 注意
 new 操作符优先级大于 bind 绑定，因此实现过程中可以修改 bound 函数内的 this 指向
 :::
 
+## polyfill
+
 ```javascript
-/** 该辅助函数中new操作符的调用无法修改this绑定 */
+/** 该辅助函数中 new 操作符的调用无法修改 this 绑定 */
 // function bind(fn, context) {
 //     return function () {
 //         return fn.apply(context, arguments)
