@@ -6,6 +6,9 @@ hero:
     name: 方向的个人网站
     text: Fang Xiang's Personal Website
     tagline: 记录值得分享的内容
+    image:
+        src: /favicon.svg
+        alt: 方向的个人网站
     actions:
         - theme: brand
           text: JavaScript
@@ -14,14 +17,17 @@ hero:
           text: CSS
           link: /
         - theme: alt
-          text: Web Technology
+          text: Web 开发技术
           link: /
 
 features:
-    - title: Feature A
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature B
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - title: Feature C
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - icon: 📝
+      title: Markdown
+      # details: Markdown
+    - icon: ⚡
+      title: Vite
+      # details: Vite
+    - icon: ✌️
+      title: Vue
+      # details:
 ---

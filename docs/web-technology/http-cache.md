@@ -147,7 +147,7 @@ Content-Length: 9887
 
 ### 缓存决策树
 
-<img src="/assets/http-cache.jpg" style="zoom:40%;">
+<img src="/img/http-cache.jpg" style="zoom:40%;">
 
 ### 缓存决策示例
 

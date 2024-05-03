@@ -7,34 +7,29 @@ export default defineConfig({
     head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
     cleanUrls: true,
     themeConfig: {
+        logo: '/favicon.svg',
+        externalLinkIcon: true,
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'short'
+            }
+        },
+        docFooter: {
+            prev: '上一页',
+            next: '下一页'
+        },
+        search: {
+            provider: 'local'
+        },
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '主页', link: '/' },
-            { text: 'Web 开发技术', link: '/web-technology/http-cache' },
-            { text: 'JavaScript', link: '/doc-javascript/bind-polyfill' }
+            { text: 'JavaScript', link: '/doc-javascript/bind-polyfill' },
+            { text: 'Web 开发技术', link: '/web-technology/http-cache' }
         ],
-
         sidebar: {
-            '/web-technology': [
-                {
-                    text: 'Web 开发技术',
-                    items: [
-                        {
-                            text: 'HTTP缓存',
-                            link: '/web-technology/http-cache'
-                        },
-                        {
-                            text: '项目优化以及最佳实践',
-                            link: '/web-technology/thinking-about-projects'
-                        }
-
-                        // {
-                        //     text: '项目功能点',
-                        //     link: '/web-technology/points-of-projects'
-                        // }
-                    ]
-                }
-            ],
             '/doc-javascript': [
                 {
                     text: 'JavaScript',
@@ -46,6 +41,22 @@ export default defineConfig({
                         {
                             text: '实现一个cloneDeep函数',
                             link: '/doc-javascript/clone-deep'
+                        }
+                    ]
+                }
+            ],
+
+            '/web-technology': [
+                {
+                    text: 'Web 开发技术',
+                    items: [
+                        {
+                            text: 'HTTP缓存',
+                            link: '/web-technology/http-cache'
+                        },
+                        {
+                            text: '项目优化以及最佳实践',
+                            link: '/web-technology/thinking-about-projects'
                         }
                     ]
                 }
