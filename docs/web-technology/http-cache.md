@@ -54,7 +54,7 @@ Cache-Control: no-cache
 Cache-Control: max-age=0, must-revalidate
 ```
 
-::: warning
+::: warning 注意
 如果服务器关闭或失去连接，下面的指令可能会造成使用缓存。
 
 ```http
@@ -93,7 +93,7 @@ If-Modified-Since: Thu, 29 Apr 2021 03:09:28 GMT
 Status-Code: 304 Not Modified
 ```
 
-::: warning
+::: warning 注意
 协商缓存判断缓存有效的响应状态码是 **304** ，即缓存有效响应重定向到本地缓存上。这和强制缓存有所不同，强制缓存若有效，则再次请求的响应状态码是 **200**。
 :::
 
@@ -117,7 +117,7 @@ Last-Modified: Fri, 12 Jul 2021 18:30:00 GMT
 Content-Length: 9887
 ```
 
-::: warning
+::: warning 注意
 上述响应中 **ETag** 比 **Last-Modified** 具有更高优先级。
 :::
 
@@ -155,7 +155,7 @@ HTML 属于包含其他文件的主文件，为保证当其内容发生修改时
 
 图片、CSS、JS 都可以设置**强制缓存**，并使用内容哈希或版本号来控制缓存时长。
 
-::: warning
+::: warning 注意
 如果 JavaScript 中包含了用户的私人信息而不想让中间代理缓存，则可为 **Cache-Control** 添加 **private** 属性值。
 :::
 
