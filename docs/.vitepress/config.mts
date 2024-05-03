@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: '方向的个人网站',
     description: "Fang Xiang's Personal Website",
+    head: [['link', { rel: 'icon', href: '/assets/favicon.svg' }]],
+    cleanUrls: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
