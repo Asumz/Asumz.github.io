@@ -27,6 +27,7 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: 'JavaScript', link: '/doc-javascript/bind-polyfill' },
+            { text: 'CSS', link: '/doc-css/demos' },
             { text: 'Web 开发技术', link: '/web-technology/http-cache' }
         ],
         sidebar: {
@@ -45,7 +46,17 @@ export default defineConfig({
                     ]
                 }
             ],
-
+            '/doc-css': [
+                {
+                    text: 'CSS',
+                    items: [
+                        {
+                            text: '有趣的css',
+                            link: '/doc-css/demos'
+                        }
+                    ]
+                }
+            ],
             '/web-technology': [
                 {
                     text: 'Web 开发技术',
@@ -59,12 +70,6 @@ export default defineConfig({
                             link: '/web-technology/thinking-about-projects'
                         }
                     ]
-                }
-            ],
-            '/doc-css': [
-                {
-                    text: 'CSS',
-                    items: []
                 }
             ]
         },

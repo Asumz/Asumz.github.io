@@ -15,19 +15,17 @@ hero:
           link: /doc-javascript/bind-polyfill
         - theme: alt
           text: CSS
-          link: /
+          link: /doc-css/demos
         - theme: alt
           text: Web 开发技术
           link: /web-technology/http-cache
 
 features:
     - icon: 📝
-      title: <a href="https://vitepress.dev/zh" target="_blank">VitePress</a>
-      details: 由 Vite 和 Vue 驱动的静态站点生成器
+      title: <a href="https://vitepress.dev/zh" target="_blank">专注内容</a>
+      # details: 专注内容
     - icon: ⚡
-      title: <a href="https://vitejs.cn/vite3-cn" target="_blank">Vite</a>
-      details: 下一代的前端工具链
+      title: 快速构建
     - icon: ☁️
-      title: <a href="https://dash.cloudflare.com" target="_blank">CloudFlare</a>
-      details: 发现全球连通云
+      title: 发现全球连通云
 ---
