@@ -44,7 +44,7 @@
 
         -   `minChunks`越大越少的文件会被提取到  `common.js`  中去，但这会导致  `common.js`  变小、效果变弱
 
--   CDN 加速：利用内容分发网络提高访问速度。 ps: `webpack`记得配置全局变量名`external`
+-   CDN 加速：利用内容分发网络提高访问速度。 ps: `webpack`使用来自 JavaScript 运行环境提供的全局变量（如`jQuery`），需配置 如 `externals`，避免全局变量被打包进多个 chunk 中。
 
 -   预加载： `preload` 指定 js、css 资源在页面生命周期早期就开始加载，最大限度同时 解析文档 和 下载资源
 

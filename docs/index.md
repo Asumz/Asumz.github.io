@@ -21,11 +21,13 @@ hero:
           link: /web-technology/http-cache
 
 features:
-    - icon: 📝
-      title: <a href="https://vitepress.dev/zh" target="_blank">专注内容</a>
-      # details: 专注内容
-    - icon: ⚡
-      title: 快速构建
-    - icon: ☁️
-      title: 发现全球连通云
+    - icon: 🤨
+      title: <a href="https://vitepress.dev/zh" target="_blank">Focus</a>
+      details: Focus on Your Content
+    - icon: 😎
+      title: DRY
+      details: Dont Repeat Yourself
+    - icon: 😘
+      title: KISS
+      details: Keep It Simple, Stupid
 ---
