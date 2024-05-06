@@ -22,8 +22,9 @@ hero:
 
 features:
     - icon: 🤨
-      title: <a href="https://vitepress.dev/zh" target="_blank">Focus</a>
+      title: Focus
       details: Focus on Your Content
+      link: https://vitepress.dev/zh
     - icon: 😎
       title: DRY
       details: Dont Repeat Yourself
