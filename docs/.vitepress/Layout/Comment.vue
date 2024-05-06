@@ -41,14 +41,12 @@ function setComments() {
     if (comments?.value) {
         const script = document.createElement('script')
         script.src = 'https://beaudar.lipk.org/client.js'
-        // TODO: 修改为自己的配置
+        // custom
         script.setAttribute('repo', 'asumz/asumz.github.io')
         script.setAttribute('branch', 'main')
-        script.setAttribute('issue-term', 'title')
         script.setAttribute('label', '💬评论')
+        script.setAttribute('issue-term', 'title')
         script.setAttribute('issue-label', 'pathname')
-        script.setAttribute('comment-order', 'desc')
-        script.setAttribute('input-position', 'top')
         script.setAttribute('crossorigin', 'anonymous')
         script.async = true
         comments.value.innerHTML = ''

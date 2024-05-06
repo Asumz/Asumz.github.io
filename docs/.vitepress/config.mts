@@ -6,6 +6,7 @@ export default defineConfig({
     description: "Fang Xiang's Personal Website",
     head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
     cleanUrls: true,
+
     themeConfig: {
         logo: '/favicon.svg',
 
