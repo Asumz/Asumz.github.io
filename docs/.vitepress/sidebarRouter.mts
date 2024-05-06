@@ -12,6 +12,10 @@ export default {
                 {
                     text: '实现一个cloneDeep函数',
                     link: '/doc-javascript/clone-deep'
+                },
+                {
+                    text: '尾调用优化',
+                    link: '/doc-javascript/tco'
                 }
             ]
         }
