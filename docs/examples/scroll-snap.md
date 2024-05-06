@@ -1,10 +1,12 @@
-<template>
-    <div :class="$style.container">
-        <div :class="$style.box1">1</div>
-        <div :class="$style.box2">2</div>
-        <div :class="$style.box3">3</div>
-    </div>
-</template>
+# 有滚动容器的情形下吸附至吸附点
+
+## 滑动试试...
+
+<div :class="$style.container">
+    <div :class="$style.box1">1</div>
+    <div :class="$style.box2">2</div>
+    <div :class="$style.box3">3</div>
+</div>
 
 <style module>
 .container {

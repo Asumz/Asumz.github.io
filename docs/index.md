@@ -15,7 +15,7 @@ hero:
           link: /doc-javascript/bind-polyfill
         - theme: alt
           text: CSS
-          link: /doc-css/demos
+          link: /doc-css/
         - theme: alt
           text: Web 开发技术
           link: /web-technology/http-cache

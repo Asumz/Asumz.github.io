@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import siderbar from './sidebarRouter.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,52 +15,11 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: 'JavaScript', link: '/doc-javascript/bind-polyfill' },
-            { text: 'CSS', link: '/doc-css/demos' },
-            { text: 'Web 开发技术', link: '/web-technology/http-cache' }
+            { text: 'CSS', link: '/doc-css/' },
+            { text: 'Web 开发技术', link: '/web-technology/http-cache' },
+            { text: '示例', link: '/examples/scroll-snap' }
         ],
-        sidebar: {
-            '/doc-javascript': [
-                {
-                    text: 'JavaScript',
-                    items: [
-                        {
-                            text: '实现一个bind函数',
-                            link: '/doc-javascript/bind-polyfill'
-                        },
-                        {
-                            text: '实现一个cloneDeep函数',
-                            link: '/doc-javascript/clone-deep'
-                        }
-                    ]
-                }
-            ],
-            '/doc-css': [
-                {
-                    text: 'CSS',
-                    items: [
-                        {
-                            text: '有趣的css',
-                            link: '/doc-css/demos'
-                        }
-                    ]
-                }
-            ],
-            '/web-technology': [
-                {
-                    text: 'Web 开发技术',
-                    items: [
-                        {
-                            text: 'HTTP缓存',
-                            link: '/web-technology/http-cache'
-                        },
-                        {
-                            text: '项目优化以及最佳实践',
-                            link: '/web-technology/thinking-about-projects'
-                        }
-                    ]
-                }
-            ]
-        },
+        sidebar: siderbar,
 
         // 右侧文章索引级别
         // outline: 'deep',
