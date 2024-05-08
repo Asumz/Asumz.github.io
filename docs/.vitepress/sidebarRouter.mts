@@ -36,12 +36,16 @@ export default {
             text: 'Web 开发技术',
             items: [
                 {
-                    text: 'HTTP缓存',
+                    text: 'HTTP 缓存',
                     link: '/web-technology/http-cache'
                 },
                 {
                     text: '项目优化以及最佳实践',
                     link: '/web-technology/thinking-about-projects'
+                },
+                {
+                    text: '了解 JSBridge',
+                    link: '/web-technology/jsbridge'
                 }
             ]
         }
