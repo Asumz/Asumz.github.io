@@ -6,7 +6,7 @@ JSON 方法无法拷贝循环引用的对象，我们需要做到这点
 
 ## polyfill
 
-```javascript
+```js{7}
 /**
  * 深度克隆函数
  * @param {*} obj - 需要克隆的对象

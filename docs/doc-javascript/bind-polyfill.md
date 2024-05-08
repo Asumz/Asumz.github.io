@@ -6,7 +6,7 @@ new 操作符优先级大于 bind 绑定，因此实现过程中可以修改 bou
 
 ## polyfill
 
-```javascript
+```js {21}
 /** 该辅助函数中 new 操作符的调用无法修改 this 绑定 */
 // function bind(fn, context) {
 //     return function () {
@@ -26,9 +26,7 @@ Function.prototype._bind = function (oThis) {
         fNOP = function () {}, // 空操作指令
         fBound = function () {
             return fTobind.apply(
-                /**
-                 * new -> fBoundInstance
-                 */
+                /** new -> fBoundInstance */
                 this instanceof fNOP && oThis ? this : oThis,
                 aArgs.concat(Array.prototype.slice.call(arguments))
             )
