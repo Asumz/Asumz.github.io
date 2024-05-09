@@ -141,10 +141,14 @@ extract 配置如下 (default false, autoconfigured)
 }
 ```
 
-## 使用 SVGO
+## [使用 SVGO](https://github.com/svg/svgo?tab=readme-ov-file)
 
-> SVGO 是一个基于 Node.js 的开源 svg 优化工具，能够优化 SVG 文件，减小文件大小
+> ⚙️ Node.js tool for optimizing SVG files
 
 SVGO 可以精简压缩文本中的无用信息，对于向量编辑器导出的 SVG 文件能压缩 70%左右（具体表现要看冗余信息量）！
 
-项目里通常配置 `svgo.config.mjs` 使 SVGO 从中读取配置项。一般会设置`fill: currentColor`属性，让 SVG 的颜色跟随父元素的 color 值变化
+许多应用程序和框架已经依赖或支持 SVGO 的集成。项目里从 `svgo.config.mjs` 读取配置。
+
+项目里一般会设置 `fill: currentColor` 属性，让 SVG 的颜色跟随父元素的 color 值变化
+
+[查阅更多配置项](https://svgo.dev/docs/introduction/)
