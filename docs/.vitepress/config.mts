@@ -15,7 +15,7 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: 'JavaScript', link: '/doc-javascript/bind-polyfill' },
-            { text: 'CSS', link: '/doc-css/' },
+            { text: 'CSS', link: '/doc-css/bfc' },
             { text: 'Web 开发技术', link: '/web-technology/http-cache' },
             { text: '示例', link: '/examples/scroll-snap' }
         ],

@@ -43,7 +43,7 @@ JSBridge 的接口主要功能有两个：调用 Native（给 Native 发消息�
                 data: data || {},
                 callbackId: thisId
             }
-            // 使用 Native 端提供的方法发送消息
+            // 判断环境，使用 Native 端提供的方法发送消息
             nativeBridge.postMessage(request)
         },
         // 接收 Native 消息

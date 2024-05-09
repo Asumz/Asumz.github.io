@@ -25,8 +25,8 @@ export default {
             text: 'CSS',
             items: [
                 {
-                    text: '有趣的css',
-                    link: '/doc-css/index'
+                    text: '理解 BFC',
+                    link: '/doc-css/bfc'
                 }
             ]
         }
@@ -46,6 +46,10 @@ export default {
                 {
                     text: '了解 JSBridge',
                     link: '/web-technology/jsbridge'
+                },
+                {
+                    text: '加载SVG',
+                    link: '/web-technology/load-svg'
                 }
             ]
         }
