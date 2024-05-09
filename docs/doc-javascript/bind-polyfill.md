@@ -37,7 +37,11 @@ Function.prototype._bind = function (oThis) {
 
     return fBound
 }
+```
 
+优先级测试
+
+```js
 function foo(something) {
     this.a = something
 }
