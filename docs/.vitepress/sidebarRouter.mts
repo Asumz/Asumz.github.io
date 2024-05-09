@@ -48,7 +48,7 @@ export default {
                     link: '/web-technology/jsbridge'
                 },
                 {
-                    text: '加载SVG',
+                    text: '加载 SVG',
                     link: '/web-technology/load-svg'
                 }
             ]
