@@ -62,7 +62,7 @@ body {
 }
 ```
 
-webpack 配置如下
+:::details webpack 配置
 
 ```js
 module.exports = {
@@ -86,6 +86,8 @@ module.exports = {
     }
 }
 ```
+
+:::
 
 ## [使用 svg-sprite-loader](https://www.npmjs.com/package/svg-sprite-loader)
 
