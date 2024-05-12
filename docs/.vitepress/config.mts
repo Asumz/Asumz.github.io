@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import siderbar from './sidebarRouter.mjs'
+import sidebar from './sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,7 +21,7 @@ export default defineConfig({
             { text: 'Web 开发技术', link: '/web-technology/http-cache' },
             { text: '示例', link: '/examples/scroll-snap' }
         ],
-        sidebar: siderbar,
+        sidebar: sidebar,
 
         // 右侧索引展示文本
         outlineTitle: '页面导航',
