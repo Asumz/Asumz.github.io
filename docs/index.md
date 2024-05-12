@@ -7,8 +7,9 @@ hero:
     text: Fang Xiang's Personal Website
     tagline: 记录值得分享的内容
     image:
-        src: /favicon.svg
-        alt: 方向的个人网站
+        alt: oops
+        light: /hero-light.svg
+        dark: /hero-dark.svg
     actions:
         - theme: brand
           text: JavaScript

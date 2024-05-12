@@ -6,6 +6,8 @@ export default defineConfig({
     title: '方向的个人网站',
     description: "Fang Xiang's Personal Website",
     head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
+
+    // 生成简洁的 URL
     cleanUrls: true,
 
     themeConfig: {
@@ -21,8 +23,6 @@ export default defineConfig({
         ],
         sidebar: siderbar,
 
-        // 右侧文章索引级别
-        // outline: 'deep',
         // 右侧索引展示文本
         outlineTitle: '页面导航',
 
