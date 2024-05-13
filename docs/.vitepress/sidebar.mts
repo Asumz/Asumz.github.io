@@ -50,6 +50,10 @@ export default {
                 {
                     text: '加载 SVG',
                     link: '/web-technology/load-svg'
+                },
+                {
+                    text: '学习 SEO',
+                    link: '/web-technology/seo'
                 }
             ]
         }

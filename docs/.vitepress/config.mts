@@ -5,6 +5,7 @@ import sidebar from './sidebar.mjs'
 export default defineConfig({
     title: '方向的个人网站',
     description: "Fang Xiang's Personal Website",
+    lang: 'zh',
     head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
 
     // 生成简洁的 URL
@@ -82,5 +83,10 @@ export default defineConfig({
                 }
             }
         }
+
+        // 有利于 SEO
+        // sitemap: {
+        //     hostname: 'https://asumz.pages.dev'
+        // },
     }
 })
