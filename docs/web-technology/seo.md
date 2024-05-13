@@ -220,15 +220,24 @@ Sitemap：使用此指令来标记你网站地图所的位置。如果你对网�
 ## 八、网址规范化
 
 例如，一个页面可能有多个 URL 地址，比如：
+
 https://example.com/article.html
+
 https://example.com/article
+
 https://www.example.com/article
 
 这些 URL 指向同一个页面内容。但是，我们应该指定其中一个作为该页面的规范化 URL
 
-在每个非规范版本的 HTML 网页的`<head>`部分中，添加一个 `rel="canonical"` 链接来进行指定规范网址
+```html
+<link rel="canonical" href="https://www.example.com/article" />
+```
 
-<link rel="canonical" href="https://www.example.com/article"/>
+一些常见原因为
+
+1. 为了支持多种设备类型，如 _m.example.com_, _example.com_
+2. 当你将同一篇博文同时放到多个板块中，你的博客系统会自动保存多个网址，如 _/pathA/seo_，_/pathB/seo_
+3. 你的服务器已配置为针对 www / 非 www，http / https 变体提供相同的内容，如 _wwww.example.com_，_example.com_。
 
 ## 九、网站性能
 
