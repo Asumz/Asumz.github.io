@@ -16,12 +16,11 @@ export const shared = defineConfig({
     /* prettier-ignore */
     head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-    // ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
-    ['meta', { property: 'og:title', content: '方向的个人网站 - 记录值得分享的内容' }],
-    ['meta', { property: 'og:site_name', content: '方向的个人网站' }],
-    ['meta', { property: 'og:image', content: 'https://asumz.pages.dev/fx-og.svg' }],
+    ['meta', { property: 'og:title', content: '方向的个人网站' }],
+    ['meta', { property: 'og:description', content: '记录值得分享的内容' }],
+    ['meta', { property: 'og:image', content: 'https://asumz.peages.dev/fx-og.svg' }],
     ['meta', { property: 'og:url', content: 'https://asumz.pages.dev/' }],
   ],
 

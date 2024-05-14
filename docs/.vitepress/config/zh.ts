@@ -46,7 +46,7 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Web 开发技术',
-            link: '/web/seo',
+            link: '/web/http-cache',
             activeMatch: '/web/'
         },
         {
@@ -64,8 +64,6 @@ function sidebarWeb(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: 'HTTP 缓存', link: 'http-cache' },
-                /* prettier-ignore */
-                { text: '项目优化以及最佳实践', link: 'thinking-about-projects' },
                 { text: '了解 JSBridge', link: 'jsbridge' },
                 { text: '加载 SVG', link: 'load-svg' },
                 { text: '学习 SEO', link: 'seo' }
@@ -101,7 +99,7 @@ function sidebarExamples(): DefaultTheme.SidebarItem[] {
 }
 
 export const search: DefaultTheme.LocalSearchOptions['locales'] = {
-    zh: {
+    root: {
         translations: {
             button: {
                 buttonText: '搜索文档'

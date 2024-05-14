@@ -17,7 +17,7 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Web Technology',
-            link: '/en/web/seo',
+            link: '/en/web/http-cache',
             activeMatch: '/en/web/'
         },
         {
