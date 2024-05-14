@@ -3,20 +3,20 @@
 layout: home
 
 hero:
-    name: 方向的个人网站
+    name: FX's Personal Website
     text: FX's Personal Website
-    tagline: 记录值得分享的内容
+    tagline: Jot down the stuff worth sharing
     image:
         alt: oops
         light: /hero-light.svg
         dark: /hero-dark.svg
     actions:
         - theme: brand
-          text: Web 开发技术
-          link: /web/http-cache
+          text: Web Technology
+          link: /en/web/http-cache
         - theme: alt
-          text: 示例
-          link: /examples/scroll-snap
+          text: e.g.
+          link: /en/examples/scroll-snap
 
 features:
     - icon: 🤨
