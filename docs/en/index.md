@@ -13,16 +13,16 @@ hero:
     actions:
         - theme: brand
           text: Web Technology
-          link: /en/web/http-cache
+          link: /en/e.g
         - theme: alt
           text: e.g.
-          link: /en/examples/scroll-snap
+          link: /en/e.g
 
 features:
     - icon: 🤨
       title: Focus
       details: Focus on Your Content
-      link: https://vitepress.dev/zh
+      link: https://vitepress.dev
     - icon: 😎
       title: DRY
       details: Dont Repeat Yourself

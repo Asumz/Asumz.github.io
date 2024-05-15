@@ -17,13 +17,13 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Web Technology',
-            link: '/en/web/http-cache',
-            activeMatch: '/en/web/'
+            link: '/en/e.g',
+            activeMatch: '/en/'
         },
         {
             text: 'e.g.',
-            link: '/en/examples/scroll-snap',
-            activeMatch: '/en/examples/'
+            link: '/en/e.g',
+            activeMatch: '/en/'
         }
     ]
 }
