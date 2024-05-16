@@ -1,8 +1,4 @@
----
-title: HTTP 缓存
----
-
-# HTTP 缓存 <Badge type="info">2021 年 8 月 1 日</Badge>
+# HTTP 缓存
 
 ## 概览
 
