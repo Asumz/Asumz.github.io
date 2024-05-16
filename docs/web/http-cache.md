@@ -1,4 +1,8 @@
-# HTTP 缓存
+---
+title: HTTP 缓存
+---
+
+# HTTP 缓存 <Badge type="info">2021 年 8 月 1 日</Badge>
 
 ## 概览
 
@@ -173,3 +177,7 @@ CDN 服务一般都会给资源开启很长时间的缓存
 
 3. 控制中间代理的缓存
    凡是会涉及用户隐私信息的尽量避免中间代理的缓存，如果对所有用户响应相同的资源，则可以考虑让中间代理也进行缓存。
+
+## 参见
+
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching

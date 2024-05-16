@@ -1,4 +1,8 @@
-# 了解 JSBridge
+---
+title: 了解 JSBridge
+---
+
+# 了解 JSBridge <Badge type="info">2024 年 5 月 2 日</Badge>
 
 ## 什么是 JSBridge？
 

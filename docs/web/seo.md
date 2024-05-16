@@ -249,14 +249,16 @@ https://www.example.com/article
 
 网站打开速度越快，识别效果越好，否则爬虫会认为该网站对用户不友好，降低爬取效率
 
-## 参考链接
+## 参见
 
 [Ahrefs 博客](https://ahrefs.com/blog/zh/)
 
 [SEO 初学者指南](https://ahrefs.com/zh/seo)
 
-[站长工具](https://seo.chinaz.com/)
+[The Open Graph protocol](https://ogp.me/)
 
 [sitemaps.org - Protocol](https://www.sitemaps.org/protocol.html)
 
 [关于 Robots.txt 和 SEO: 你所需要知道的一切](https://ahrefs.com/blog/zh/robots-txt/)
+
+[什么是 CSR、SSR、SSG、ISR - 渲染模式详解](https://zhuanlan.zhihu.com/p/640900230)
