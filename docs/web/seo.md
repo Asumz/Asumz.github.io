@@ -86,6 +86,10 @@ Open Graph Protocol（开放图谱协议），简称  OG 协议。它是一种*
 
 ![og](/img/og.png)
 
+:::tip 提示
+查看更多：[The Open Graph protocol](https://ogp.me/)
+:::
+
 ## 三、HTML 语义化
 
 HTML 语义化主要作用有以下几点：
@@ -211,9 +215,11 @@ Sitemap：使用此指令来标记你网站地图所的位置。如果你对网�
 
 必应：[www.bing.com/webmasters/…](https://link.zhihu.com/?target=https%3A//link.juejin.cn/%3Ftarget%3Dhttps%253A%252F%252Fwww.bing.com%252Fwebmasters%252Fabout)
 
-## 七、SSR、SSG
+## 七、SSR、SSG、ISR
 
 爬虫只能抓取到网页的静态源代码，而无法执行其中的 JavaScript 脚本。当网站采用 Vue 或 React 构建 SPA 项目时，页面上的大部分 DOM 元素实际上是在客户端通过 JavaScript 动态生成的。这意味着爬虫能够直接抓取和分析的内容会大幅减少。
+
+参考：[什么是 CSR、SSR、SSG、ISR - 渲染模式详解](https://zhuanlan.zhihu.com/p/640900230)
 
 爬虫除了不会抓取 JavaScript 脚本的内容，也不会抓取 iframe 中的内容，因此项目中少用 iframe
 
