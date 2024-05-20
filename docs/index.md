@@ -22,7 +22,6 @@ features:
     - icon: 🤨
       title: Focus
       details: Focus on Your Content
-      link: https://vitepress.dev/zh
     - icon: 😎
       title: DRY
       details: Dont Repeat Yourself
