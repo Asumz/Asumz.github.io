@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-    name: FX's Personal Website
-    text: FX's Personal Website
+    name: FX's Blog
+    text: Personal Blog
     tagline: Jot down the stuff worth sharing
     image:
         alt: oops

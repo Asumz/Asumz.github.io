@@ -1,4 +1,4 @@
-import { Content, defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { search as zhSearch } from './zh'
 
 export const shared = defineConfig({
@@ -19,9 +19,9 @@ export const shared = defineConfig({
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
-    ['meta', { property: 'og:site_name', content: '方向的个人网站' }],
-    ['meta', { property: 'og:title', content: '方向的个人网站 - FX\'s Personal Website' }],
-    ['meta', { property: 'og:description', content: '记录值得分享的内容' }],
+    ['meta', { property: 'og:site_name', content: 'FX\'s Blog' }],
+    ['meta', { property: 'og:title', content: 'FX\'s Blog - Personal Blog' }],
+    ['meta', { property: 'og:description', content: 'Jot down the stuff worth sharing' }],
     ['meta', { property: 'og:image', content: 'https://asumz.pages.dev/fx-og.svg' }],
     ['meta', { property: 'og:url', content: 'https://asumz.pages.dev/' }],
   ],
@@ -33,6 +33,10 @@ export const shared = defineConfig({
         // socialLinks: [
         //     { icon: 'github', link: 'https://github.com/Asumz' }
         // ],
+
+        footer: {
+            message: 'Powerd by VitePress'
+        },
 
         search: {
             provider: 'local',

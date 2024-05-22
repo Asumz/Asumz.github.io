@@ -5,8 +5,8 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
     lang: 'zh-Hans',
-    title: '方向的个人网站',
-    description: '记录值得分享的内容',
+    title: "FX's Blog",
+    description: 'Jot down the stuff worth sharing',
 
     themeConfig: {
         nav: nav(),

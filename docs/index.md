@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-    name: 方向的个人网站
-    text: FX's Personal Website
+    name: FX's Blog
+    text: 个人博客
     tagline: 记录值得分享的内容
     image:
         alt: oops
@@ -17,15 +17,4 @@ hero:
         - theme: alt
           text: 示例
           link: /examples/scroll-snap
-
-features:
-    - icon: 🤨
-      title: Focus
-      details: Focus on Your Content
-    - icon: 😎
-      title: DRY
-      details: Dont Repeat Yourself
-    - icon: 😘
-      title: KISS
-      details: Keep It Simple, Stupid
 ---
