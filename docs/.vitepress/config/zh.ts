@@ -13,24 +13,24 @@ export const zh = defineConfig({
 
         sidebar: {
             '/web/': { base: '/web/', items: sidebarWeb() },
-            '/examples/': { base: '/examples/', items: sidebarExamples() }
+            '/examples/': { base: '/examples/', items: sidebarExamples() },
         },
 
         docFooter: {
             prev: '上一页',
-            next: '下一页'
+            next: '下一页',
         },
 
         outline: {
-            label: '页面导航'
+            label: '页面导航',
         },
 
         lastUpdated: {
             text: '最后更新于',
             formatOptions: {
                 dateStyle: 'short',
-                timeStyle: 'medium'
-            }
+                timeStyle: 'medium',
+            },
         },
 
         langMenuLabel: '多语言',
@@ -38,8 +38,8 @@ export const zh = defineConfig({
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色模式',
-        darkModeSwitchTitle: '切换到深色模式'
-    }
+        darkModeSwitchTitle: '切换到深色模式',
+    },
 })
 
 function nav(): DefaultTheme.NavItem[] {
@@ -47,13 +47,13 @@ function nav(): DefaultTheme.NavItem[] {
         {
             text: 'Web 开发技术',
             link: '/web/http-cache',
-            activeMatch: '/web/'
+            activeMatch: '/web/',
         },
         {
             text: '示例',
             link: '/examples/scroll-snap',
-            activeMatch: '/examples/'
-        }
+            activeMatch: '/examples/',
+        },
     ]
 }
 
@@ -66,8 +66,8 @@ function sidebarWeb(): DefaultTheme.SidebarItem[] {
                 { text: 'HTTP 缓存', link: 'http-cache' },
                 { text: '了解 JSBridge', link: 'jsbridge' },
                 { text: '加载 SVG', link: 'load-svg' },
-                { text: '学习 SEO', link: 'seo' }
-            ]
+                { text: '学习 SEO', link: 'seo' },
+            ],
         },
         {
             text: 'JavaScript',
@@ -76,15 +76,15 @@ function sidebarWeb(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '实现一个bind函数', link: 'bind-polyfill' },
                 { text: '实现一个cloneDeep函数', link: 'clone-deep' },
-                { text: '尾调用优化', link: 'tco' }
-            ]
+                { text: '尾调用优化', link: 'tco' },
+            ],
         },
         {
             text: 'CSS',
             base: '/web/css/',
             collapsed: false,
-            items: [{ text: '理解 BFC', link: 'bfc' }]
-        }
+            items: [{ text: '理解 BFC', link: 'bfc' }],
+        },
     ]
 }
 
@@ -93,8 +93,8 @@ function sidebarExamples(): DefaultTheme.SidebarItem[] {
         {
             text: '示例',
             collapsed: false,
-            items: [{ text: 'css滚动吸附', link: 'scroll-snap' }]
-        }
+            items: [{ text: 'css滚动吸附', link: 'scroll-snap' }],
+        },
     ]
 }
 
@@ -102,7 +102,7 @@ export const search: DefaultTheme.LocalSearchOptions['locales'] = {
     root: {
         translations: {
             button: {
-                buttonText: '搜索文档'
+                buttonText: '搜索文档',
             },
             modal: {
                 displayDetails: '显示详情',
@@ -111,9 +111,9 @@ export const search: DefaultTheme.LocalSearchOptions['locales'] = {
                 footer: {
                     closeText: '关闭',
                     selectText: '选择',
-                    navigateText: '切换'
-                }
-            }
-        }
-    }
+                    navigateText: '切换',
+                },
+            },
+        },
+    },
 }
