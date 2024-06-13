@@ -4,7 +4,7 @@ outline: [2, 3]
 
 # 理解 BFC
 
-**区块格式化上下文**（Block Formatting Context，BFC）是 Web 页面的可视 CSS 渲染的一部分，是块级盒子的布局> 过程发生的区域，也是浮动元素与其他元素交互的区域。
+**区块格式化上下文**（Block Formatting Context，BFC）是 Web 页面的可视 CSS 渲染的一部分，是块级盒子的布局过程发生的区域，也是浮动元素与其他元素交互的区域。
 
 ## 下列方式会创建 BFC
 
@@ -240,12 +240,13 @@ section {
 
 相邻的几个  `<div>`  元素，每个元素在垂直方向上含有  `10px`  的外边距。由于外边距重叠作用，垂直方向上它们之间将具有 `10px` 的间距，而不是所期望的 `20px`。
 
+我们将第二个 `<div class="blue">` 包裹在另外一个 `<div>` 之中，以创建一个新的 BFC，防止外边距重叠。
+
 HTML
 
 ```html
 <div class="blue"></div>
 <div class="red"></div>
-<!-- 创建一个新的 BFC -->
 <div class="outer">
     <div class="blue"></div>
 </div>
