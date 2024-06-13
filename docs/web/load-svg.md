@@ -1,7 +1,5 @@
 # 加载 SVG
 
-## 引言
-
 SVG 作为矢量图的一种标准格式，已经得到了各大浏览器的支持，它也成为了 Web 中矢量图的代名词。 在网页中采用 SVG 代替位图有如下好处：
 
 -   SVG 相对于位图更清晰，在任意缩放的情况下后不会破坏图形的清晰度，SVG 能方便地解决高分辨率屏幕下图像显示不清楚的问题。
@@ -36,7 +34,9 @@ body {
 <img src="/favicon.svg" />
 ```
 
-## 使用 url-loader
+## SVG 工具
+
+### 使用 url-loader
 
 > url-loader 可以把文件的内容经过 base64 编码后注入到 JavaScript 或者 CSS 中去。
 
@@ -77,23 +77,23 @@ module.exports = {
                             // 10KB 以下的文件采用 url-loader
                             limit: 1024 * 10,
                             // 否则采用 file-loader，默认值就是 file-loader
-                            fallback: 'file-loader'
-                        }
-                    }
-                ]
-            }
-        ]
-    }
+                            fallback: 'file-loader',
+                        },
+                    },
+                ],
+            },
+        ],
+    },
 }
 ```
 
 :::
 
-## [使用 svg-sprite-loader](https://www.npmjs.com/package/svg-sprite-loader)
+### [使用 svg-sprite-loader](https://www.npmjs.com/package/svg-sprite-loader)
 
 > 用于创建 SVG 精灵图的 webpack loader。
 
-Sprites 是自动呈现和注入到页面中的，原理是将多个 svg 合成 SVG `<symbol>`，通过 symbol id 来引用图像。
+Sprites 是自动呈现和注入到页面中的，原理是将多个 svg 合成 SVG `<symbol>`，通过 `symbol id` 来引用图像。
 
 ::: warning 注意
 Sprites 只需要在项目初始进行一次 HTTP 请求，但在复杂项目中需要注意 Sprites 大小
@@ -143,7 +143,7 @@ extract 配置如下 (default false, autoconfigured)
 }
 ```
 
-## [使用 SVGO](https://github.com/svg/svgo?tab=readme-ov-file)
+### [使用 SVGO](https://github.com/svg/svgo?tab=readme-ov-file)
 
 > ⚙️ Node.js tool for optimizing SVG files
 
