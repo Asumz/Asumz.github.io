@@ -9,21 +9,21 @@ export const en = defineConfig({
     description: 'Jot down the stuff worth sharing',
 
     themeConfig: {
-        nav: nav()
-    }
+        nav: nav(),
+    },
 })
 
 function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Web Technology',
-            link: '/en/e.g',
-            activeMatch: '/en/'
+            link: '/en/',
+            activeMatch: '/en/',
         },
         {
             text: 'e.g.',
-            link: '/en/e.g',
-            activeMatch: '/en/'
-        }
+            link: '/en/',
+            activeMatch: '/en/',
+        },
     ]
 }

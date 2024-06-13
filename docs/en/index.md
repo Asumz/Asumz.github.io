@@ -13,10 +13,10 @@ hero:
     actions:
         - theme: brand
           text: Web Technology
-          link: /en/e.g
+          link: /en/
         - theme: alt
           text: e.g.
-          link: /en/e.g
+          link: /en/
 
 features:
     - icon: 🤨
